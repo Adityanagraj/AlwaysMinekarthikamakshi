@@ -393,7 +393,6 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/UjjwalSaini07"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -401,7 +400,7 @@ const Footer = () => {
       <span role="img" aria-label="heart">
         ❤️
       </span>
-      {" "}by Ujjwal
+      {" "}
     </a>
   );
 };
