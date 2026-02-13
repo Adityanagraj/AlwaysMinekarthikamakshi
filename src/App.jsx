@@ -174,8 +174,8 @@ export default function Page() {
     }
 
     // Play song on first press or every 7th press after
-    if (nextCount === 1 || (nextCount - 1) % 7 === 0) {
-      const nextSongIndex = Math.floor(nextCount / 7) % NoMusic.length;
+    if (nextCount === 1 || (nextCount - 1) % 3 === 0) {
+      const nextSongIndex = Math.floor(nextCount / 3) % NoMusic.length;
       playMusic(NoMusic[nextSongIndex], NoMusic);
     }
   };
