@@ -13,11 +13,11 @@ function Root() {
   }, []);
 
   return (
-    <React.StrictMode>
+    
       {/* <App /> */}
       {loading ? <Preloader /> : <App />}
     </React.StrictMode>
-  );
+  
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<Root />);
