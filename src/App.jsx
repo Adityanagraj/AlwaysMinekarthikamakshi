@@ -347,7 +347,7 @@ export default function Page() {
               alt="Love Animation"
             />
             <h1 className="text-4xl md:text-6xl my-4 text-center">
-              NOOOOO
+              Happy Valentine's day my dear Kamakshi ❤️
             </h1>
             <div className="flex flex-wrap justify-center gap-2 items-center">
               <button
